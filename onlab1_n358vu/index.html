@@ -1,0 +1,115 @@
+﻿
+<!DOCTYPE html>
+<HTML lang="en">
+    <HEAD>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="/icons/favicon.ico">
+
+        <title>Draw</title>
+
+        <!-- Bootstrap core CSS BY BOOTSTRAP-->
+        <link href="/css/bootstrap.min.css" rel="stylesheet">
+        <!-- CSS for this template BY BOOTSTRAP-->
+        <link href="/css/cover.css" rel="stylesheet">
+        <!-- CSS BY KKRISST-->
+        <link href="/css/style.css" rel="stylesheet">
+        <!-- JS BY KKRISST-->
+        <script src="/js/main.js"></script>
+    </HEAD>
+    <!-- END OF HEAD -->
+    <!-- *********************************** -->
+    <!-- BODY STARTS -->
+    <BODY onload="init()">
+
+        <div class="site-wrapper">
+
+            <div class="site-wrapper-inner">
+
+                <!-- Main container -->
+                <div id="main-container" class="container">
+
+
+                    <!-- Top left navigation buttons -->
+                    <div class="masthead clearfix">
+                        <div class="inner">
+                            <h3 class="masthead-brand">Cover</h3>
+                            <nav>
+                                <ul class="nav masthead-nav">
+                                    <li class="active"><a href="#">Home</a></li>
+                                    <li><a href="#">Features</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div> <!-- Top left navigation buttons end -->
+
+
+                    <!-- Inner content -->
+                    <div id="inner-content" class="container">
+
+                        <!-- Main-left container -->
+                        <div id="main-left-container">
+
+                            <div id="left-upper-container">
+                                <div id="draw-type-container">
+                                    <a href="#" class="btn btn-lg btn-default">Type</a>
+                                </div>
+                                <div id="draw-attribute-container">
+                                    <a href="#" class="btn btn-lg btn-default">Attribute</a>
+                                </div>
+                            </div>
+
+                            <div id="left-lower-container">
+                                <div id="draw-color-container">
+                                    <a href="#" class="btn btn-lg btn-default">Color</a>
+                                </div>
+                            </div>
+
+                        </div> <!-- Main-left container end -->
+
+                        <!-- Main-right container -->
+                        <div id="main-right-container">
+
+                            <!-- Canvas div -->
+                            <div id="canvas-container">
+                                <canvas id="canvas" width="600" height="400">- fallback content -</canvas>
+                            </div><!-- Canvas div end -->
+
+                            <div id="container-coordinates" style="color: #fff;">
+                                <p id="coordinates-current">(x,y)</p>
+                            </div>
+
+                            <div id="button-container">
+                                <a href="#" class="btn btn-lg btn-default canvas-button">Clear</a>
+                                <a href="#" class="btn btn-lg btn-default canvas-button">Save</a>
+                                <a href="#" class="btn btn-lg btn-default canvas-button">Import</a>
+                            </div>
+
+                        </div> <!-- Main-right container end -->
+
+                    </div> <!-- Inner content ends -->
+
+                    
+                    <!-- Footer -->
+                    <div class="mastfoot">
+                        <div class="inner">
+                            <p>Drawing project by <span id="my-name">kkrisst</span>!</p>
+                        </div>
+                    </div> <!-- Footer end-->
+
+
+                </div> <!-- Main container end -->
+
+            </div> <!-- Site-wrapper-inner container end -->
+
+        </div> <!-- Site-wrapper container end -->
+
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+    </BODY>
+</HTML>

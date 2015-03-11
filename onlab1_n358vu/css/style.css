@@ -1,0 +1,103 @@
+#my-name {
+	color: #a00;
+	font-style: italic;
+	font-size: 23px;
+
+    padding: 3px;
+
+	-webkit-animation-name: flasher;
+    -webkit-animation-duration: 7s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+
+    -moz-animation-name: flasher;
+    -moz-animation-duration: 7s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+
+    animation-name: flasher;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+@-moz-keyframes flasher {
+    /* Dark blue */
+    0% { color: #000052; }
+    /* Blue */
+    25% { color: #3333CC; }
+    /* Dark blue */
+    50% { color: #000052; }
+    /* Purple */
+    75% { color: #5C005C; }
+    /* Dark blue */
+    100% { color: #000052; }
+}
+
+@-webkit-keyframes flasher {  
+    0% { color: #000052; }
+    25% { color: #3333CC; }
+    50% { color: #000052; }
+    75% { color: #5A005A; }
+    100% { color: #000052; }
+    
+}
+
+@keyframes flasher {  
+    0% { color: #000052; }
+    25% { color: #3333CC; }
+    50% { color: #000052; }
+    75% { color: #5C005C; }
+    100% { color: #000052; }
+}
+
+#inner-content {
+    /*background: #777;*/
+}
+
+#main-left-container {
+    float: left;
+    /*background: #aaa;*/
+    margin: 5px;
+    width: 40%;
+    height: 100%;
+}
+
+#main-right-container {
+    float: right;
+    /*background: #aaa;*/
+    margin: 5px;
+    width: 57%;
+}
+
+#left-upper-container {
+    /*background: #fff;*/
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#left-lower-container {
+    /*background: #fff;*/
+    height: 50%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#draw-type-container {
+    float: left;
+}
+
+#draw-color-container {
+
+}
+
+#canvas {
+	margin: auto;
+	background: #fff url("/images/canvas_background.png");
+	border: #444 3px dashed;
+}
+
+.canvas-button {
+    margin: auto;
+}
